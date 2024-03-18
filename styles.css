@@ -1,16 +1,94 @@
+@media (max-width: 320px) {
+  .btnPlayAgain {
+    width: 80%;
+  }
+
+  .dice {
+    width: 30%;
+  }
+
+  .player {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 321px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .btnPlayAgain {
+    width: 80%;
+  }
+
+  .dice {
+    width: 30%;
+  }
+
+  .player {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .btnPlayAgain {
+    width: 80%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  .btnPlayAgain {
+    width: 25%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+  .btnPlayAgain {
+    width: 25%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  .btnPlayAgain {
+    width: 25%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .btnPlayAgain {
+    width: 25%;
+  }
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .container {
-  width: 70%;
   margin: auto;
   text-align: center;
 }
 
-.refresh{
+.refresh {
   justify-content: center;
   align-items: center;
   display: block;
 }
 
-.btnPlayAgain{
+.btnPlayAgain {
   border: none;
   background-color: gainsboro;
   padding: 10px;
@@ -21,22 +99,12 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
-body{
+body {
   font-family: "REM", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-}
-
-h2 {
-  margin: 30px;
-  font-size: 6rem;
-}
-
-p {
-  font-size: 2rem;
 }
 
 img {
@@ -44,11 +112,12 @@ img {
 }
 
 footer {
+  font-size: 0.7rem;
   margin-top: 5%;
   text-align: center;
 }
 
-.info{
+.info {
   color: lightgray;
   font-size: 0.75rem;
 }
