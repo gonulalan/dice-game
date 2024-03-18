@@ -4,6 +4,19 @@
   text-align: center;
 }
 
+.refresh{
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.btn{
+  border: none;
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .dice {
   text-align: center;
   display: inline-block;
