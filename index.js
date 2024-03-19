@@ -3,9 +3,7 @@ function getRandomNumber() {
 }
 
 function changeImage(player, diceNumber) {
-  document
-    .querySelector(".img" + player)
-    .setAttribute("src", "./images/dice" + diceNumber + ".png");
+  $(".img" + player).attr("src", "./images/dice" + diceNumber + ".png");
 }
 
 function game() {
@@ -15,17 +13,17 @@ function game() {
   changeImage("2", player2);
 
   if (player1 > player2) {
-    document.querySelector("h2").textContent = "Player 1 Win!";
-    document.querySelector(".dice .p1").textContent = "🏆 Player 1";
-    document.querySelector(".dice .p2").textContent = "Player 2";
+    $("h2").text = "Player 1 Win!";
+    $(".dice .p1").text = "🏆 Player 1";
+    $(".dice .p2").text = "Player 2";
   } else if (player2 > player1) {
-    document.querySelector("h2").textContent = "Player 2 Win!";
-    document.querySelector(".dice .p1").textContent = "Player 1";
-    document.querySelector(".dice .p2").textContent = "🏆 Player 2";
+    $("h2").text = "Player 2 Win!";
+    $(".dice .p1").text = "Player 1";
+    $(".dice .p2").text = "🏆 Player 2";
   } else {
-    document.querySelector("h2").textContent = "Draw 🤝🏼";
-    document.querySelector(".dice .p1").textContent = "Player 1";
-    document.querySelector(".dice .p2").textContent = "Player 2";
+    $("h2").text = "Draw 🤝🏼";
+    $(".dice .p1").text = "Player 1";
+    $(".dice .p2").text = "Player 2";
   }
 }
 
